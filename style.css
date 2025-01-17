@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    font-family: "Space Grotesk",sans-serif;
+    overflow: hidden;
+}
+
+.container{
+    background-image:url(images/bg-main-desktop.png) ;
+    background-repeat: no-repeat;
+}
+
+.card1{
+    position: relative;
+    height: 500px;
+    background-image:url(images/bg-card-front.png) ;
+    background-repeat: no-repeat;
+    left: 150px;
+    top: 170px;
+}
+ .card1 h2{
+     position: absolute;
+     top: 120px;
+     left: 70px;
+     font-size: 30px;
+     color: aliceblue;
+ }
+
+.jane{
+   position: absolute;
+   top: 190px;
+   left: 70px;
+   color: aliceblue;
+ }
+
+ .j1{
+    position: absolute;
+    top: 190px;
+    left: 320px;
+    color: aliceblue;
+ }
+
+ .card2{
+    position: relative;
+    height: 500px;
+    background-image:url(images/bg-card-back.png) ;
+    background-repeat: no-repeat;
+    left: 230px;
+    top: -50px;
+}
+
+.c2{
+    position: absolute;
+   top: 94px;
+   left: 370px;
+   color: aliceblue;
+}
+
+
+
+.b1 label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.b1 input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.b2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.datas {
+    display: flex;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.datas input {
+    width: 28%;
+}
+
+button {
+    width: 430px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.container3{
+    position:absolute;
+    top:200px;
+    left: 700px;
+    width: 400px;
+    
+}
+.b4{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.b1 label{
+    font-size: 12px;
+}
+.b3 label{
+    margin-bottom: 200px;
+}
